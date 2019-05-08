@@ -1,0 +1,116 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 0.2rem;
+    }
+
+    header {
+        background-position-x: -800px;
+    }
+
+    header .row .col-md-7 {
+        padding: 16vmin 1vmin;
+        padding-bottom: 5vmin;
+        margin-left: 130px;
+    }
+
+    header .row .col-md-5 img {
+        width: 150%;
+        height: 110%;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .section-1 {
+        padding: 1vmin 0;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-1 .row .col-md-6 .pray img {
+        margin-top: 8rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        padding: 10vmin 5vmin 12vmin 10vmin;
+    }
+
+    .section-1 .row .col-md-6 .panel p {
+        padding-bottom: 1vmin;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+        background-position-y: 0px;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .platform .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-4 .corousel-item {
+        padding-left: 0.6rem;
+    }
+
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: -0.5rem;
+    }
+
+    .section-4 .corousel-inner {
+        width: 24rem;
+        margin-left: -24vmin;
+    }
+
+    .section-4 .corousel-item {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    header .row .col-md-7 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .section-4 .card {
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -14vmin;
+    }
+}
